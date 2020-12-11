@@ -1,0 +1,15 @@
+# Floydhub config for binary classifiers.
+
+env: pytorch-1.5
+input:
+  - destination: coco_2017_val_crops
+    source: jrokisky/datasets/coco-2017-val-crops/1
+  - destination: img_mapping
+    source: jrokisky/datasets/img-mapping/1
+  - destination: selective_search_arid_fast
+    source: jrokisky/datasets/selective-search-arid-fast/1
+  - destination: arid_floyd
+    source: jrokisky/datasets/arid-floyd/1
+  - destination: cleaned_webly_dataset
+    source: jrokisky/datasets/cleaned-webly-dataset/8
+machine: gpu

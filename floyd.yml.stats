@@ -1,0 +1,9 @@
+# Floydhub config for computing stats.
+
+env: pytorch-1.5
+input:
+  - destination: arid_crops
+    source: jrokisky/datasets/arid-crops/1
+  - destination: thesis
+    source: jrokisky/projects/thesis/58/home
+machine: gpu
